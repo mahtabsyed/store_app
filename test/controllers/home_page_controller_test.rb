@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class HomePageControllerTest < ActionController::TestCase
-  test "should get import" do
-    get :import
+  test "should get csvimport" do
+    get :csvimport
     assert_response :success
   end
 
