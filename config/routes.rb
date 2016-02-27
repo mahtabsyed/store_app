@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   #root             'home_page#home'
   root             'categories#index'
-  get 'import'  => 'home_page#import'
+  get 'csvimport'   => 'home_page#csvimport'
   get 'about'   => 'home_page#about'
   get 'contact' => 'home_page#contact'
 

@@ -1,6 +1,6 @@
 class HomePageController < ApplicationController
 
-  def import
+  def csvimport
   end
 
   def about
