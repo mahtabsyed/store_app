@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
 
-  #Mahtab - to add later
-  #get products/categories
+  get 'categories/new'
+  resources :categories
 
-  root             'home_page#home'
+  #root             'home_page#home'
+  root             'categories#index'
   get 'import'  => 'home_page#import'
   get 'about'   => 'home_page#about'
   get 'contact' => 'home_page#contact'
