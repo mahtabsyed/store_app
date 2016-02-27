@@ -5,6 +5,29 @@ Category.create(name: "WhiteGoods")
 Category.create(name: "Audio")
 Category.create(name: "Computers and Tablets")
 
+Product.create(name: "Sony NEX6", price: "1199",  category_id: 1 )
+Product.create(name: "Canon 7D", price: "2999",  category_id: 1 )
+Product.create(name: "Canon EOS 1100D", price: "418",  category_id: 1 )
+
+
+Product.create(name: "LG Fridge", price: "670",  category_id: 2 )
+Product.create(name: "Breville Toaster", price: "99",  category_id: 2 )
+
+
+Product.create(name: "Sony Speakers", price: "499",  category_id: 3 )
+Product.create(name: "Sennheiser Headphones", price: "299",  category_id: 3 )
+Product.create(name: "Bose QC15 Headphones", price: "329",  category_id: 3 )
+
+
+Product.create(name: "Apple iPad Air", price: "599",  category_id: 4 )
+Product.create(name: "Apple Macbook Pro", price: "1899",  category_id: 4 )
+Product.create(name: "Toshiba Laptop", price: "1399",  category_id: 4 )
+Product.create(name: "Apple iPad Mini", price: "499",  category_id: 4 )
+Product.create(name: "Apple Mac Pro", price: "2999",  category_id: 4 )
+Product.create(name: "Samsung Galaxy Tab", price: "699",  category_id: 4 )
+Product.create(name: "Asus Sub-notebook", price: "498",  category_id: 4 )
+Product.create(name: "Brother Laser Printer", price: "399",  category_id: 4 )
+Product.create(name: "Seagate External HDD 1TB", price: "129",  category_id: 4 )
 
 ProductID,Category,Product Name,Price
 C1,Cameras,Sony NEX6,1199
